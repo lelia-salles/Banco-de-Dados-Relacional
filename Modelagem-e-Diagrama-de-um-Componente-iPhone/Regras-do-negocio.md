@@ -1,36 +1,79 @@
 # iPhone
 ```Digite algo, aperte o botão e pronto```
+* Sincroniza mídia, contatos, documentos com PC ou Mac, sincroniza dados da web ou do iPhone
+* Conecta com wi-fi
 
-* Inteligente e fácil de usar, 
-* UI revolucionário, 
-* Integração software/hardware
-* Multitarefa (tela inicial)
-* Segurança
-* Networking
-* Controles sensíveis ao toque, tela cheia
-* Desliza para abrir
-* Sincronzação com PC ou Mac
+  
 
-## iTunes
+| Reprodutor Musical                  | Aparelho Telefônico        | Navegador de Internet     |
+| :---:                     |   :---:              |    :---:              |
+|Toca músicas e vídeos       | App de ligações, conferência    |HTML, e-mail (IMAP, POP)|
+|Controles sensíveis ao toque| Correio de voz visual | EDGE  (Safari)                 |
+|Speaker                         |Bluetooth              |      Widget              |
 
-* Controles sensíveis ao toque, tela cheia, speaker
-* Sincroniza mídia com PC ou Mac, sincroniza dados da web ou do iPhone
-* Toca músicas e vídeos
+## Diagrama
 
+```mermaid
+classDiagram
+    class IPhone {
+        <<abstract>>
+        - String modelo
+        - String sistemaOperacional
+        - int armazenamento
+        + void ligarIPhone()
+        + void iniciarItunes()
+        + void abrirInternetBrowser()
+        + void fazerChamada()
+    }
 
-## Revolutionary Mobile Phone
+    class ReprodutorMusical {
+        <<interface>>
+        - List listaDeMusicas
+        - List listaDeVideos
+        - String musica
+        + void tocarMusica()
+        + void pausarMusica()
+        + selecionarMusica(String musica)
+    }
 
-* App de ligações
-* Sincroniza contatos com PC ou Mac
-* Correio de voz visual
-* Wi-fi, bluethooth
-* Conferência por chamada
+    class NavegadorInternet {
+        <<interface>>
+        - String urlAtual
+        + void adicionarNovaAba()
+        + void atualizarPagina()
+        + void exibirPagiana(String url)
+    }
 
-## Breakthrough Internet Communicator
+    class AparelhoTelefonico {
+        <<interface>>
+        - String numeroAtual
+        - List historicoDeChamadas
+        + void ligar(String numero)
+        + void iniciarCorreioVoz()
+        + void atender()
+    }
 
-* HTML, e-mail (IMAP, POP)
-* Safari internet browser
-* Google Maps (satelite, direção, trânsito)
-* Widgets (clima, ações, )
-* EDGE, wi-fi
-* Múltiplas páginas da web
+    class IPhoneX {
+        - String modelo
+        - String sistemaOperacional
+        + iniciarItunes(): void
+        + abrirInternetBrowser(): void
+        + fazerChamada(): void
+    }
+
+        class IPhone11 {
+        - String modelo
+        - String sistemaOperacional
+        + iniciarItunes(): void
+        + abrirInternetBrowser(): void
+        + fazerChamada(): void
+    }
+
+    IPhone --> ReprodutorMusical
+    IPhone --> NavegadorInternet
+    IPhone --> AparelhoTelefonico
+
+    IPhone <|-- IPhoneX
+    IPhone <|-- IPhone11
+```
+   
