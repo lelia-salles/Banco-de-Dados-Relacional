@@ -50,8 +50,10 @@ Dependem das chaves primárias que são identificadores únicos dos registros da
 *Suporte e transações ACID - garantia da consistência da informação dentro do BD
 
 ### ACID
+Conjunto de propriedade que garante confiabilidade e segurnça
+**A**tomicidade - garante a execução bem sucedida de operaçãoes - erros em operaçãoe não são salvas.
+**C**onsistência - a operação deve sair de um estado para outro onde ambas são consistentes
+**I**solamento** - cada transação é executada de forma isolada sem interferir nas transações concorrentes para evitar acesso incorreto ou incosistencia de dados. Ex. Uma transação é feita após a outra e não ao mesmo tempo
+**D**urabilidade - quando a transação é confirmada a informação não é revertida ao estado anterior.
 
-**A**tomicidade
-**C**onsistência
-**I**solamento**
-**D**urabilidade
+[O que é um Banco de Dados Relacional?](https://www.oracle.com/br/database/what-is-a-relational-database/)
