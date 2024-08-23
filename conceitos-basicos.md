@@ -57,3 +57,15 @@ Conjunto de propriedade que garante confiabilidade e segurnça
 **D**urabilidade - quando a transação é confirmada a informação não é revertida ao estado anterior.
 
 [O que é um Banco de Dados Relacional?](https://www.oracle.com/br/database/what-is-a-relational-database/)
+
+# MER e DER : Modelagem de Banco de Dados
+
+```MER - Modelo de Entidade-Relacionamento e DER Diagrama de Entidade de Relacionamento```
+
+* MER é um modelo conceitual usado para representar a estrutura geral de um banco de dados. Descreve entidades, atributos, e o relacionamento entre as entidades sem entrar em detalhes de implementação e é representado através de diagramas DER -
+* DER é a representação gráfica do modelo conceitual.
+
+[Creatly](https://app.creately.com) 
+
+
+
