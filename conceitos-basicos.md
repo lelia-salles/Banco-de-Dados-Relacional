@@ -67,5 +67,11 @@ Conjunto de propriedade que garante confiabilidade e segurnça
 
 [Creatly](https://app.creately.com) 
 
+## Entidade
+Representação (retângulos) das tabelas que são nomeadas com substantivos concretos ou abstratos que representem a sua função. 
+
+## Atributos
+Características e propriedades da entidade. Não há atributo composto. São representados por elipses ou uma anotação do UML (lista com todos os atributos da entidade separados por linha.
+
 
 
