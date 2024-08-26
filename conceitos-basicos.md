@@ -174,5 +174,4 @@ São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/
     *  right join ou right outer join
     *  full join ou full outer join (MariaDB não aceita)
           
-*     
-* 
+[Exemplos](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Consultas_avancadas)
