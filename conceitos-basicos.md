@@ -81,10 +81,10 @@ classDiagram
         - String nome
         - String endereco
         - int idade
-           }
-
-
+    }
 ```
+
+
 ## Configuração do Ambiente Remoto
 1. Criar Conta em [](https://clients.cloudclusters.io/)
 2. Selecionar aolicativo > MariaDB > Criar Banco de Dados > Criar usuário
@@ -92,10 +92,7 @@ classDiagram
 
 ## Comandos Básicos:
 
-```
-CREATE TABLE {{nome}}
-    ({{coluna}} {{tipo}} {{opções}} COMMENT {{'COMENTARIO'}});
-```
+CRUD [Create, Read, Update, Delete]()
 
 Na hora de definir a coluna pode-se passar algumas informações adicionais como:
 
