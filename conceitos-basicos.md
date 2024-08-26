@@ -119,9 +119,9 @@ erDiagram
         string status
     }
 
-    USUARIOS ||--|| RESERVAS : "Realiza"
-    RESERVAS ||--o| DESTINOS : "Realiza"
-    DESTINOS ||--o| USUARIOS : "Realiza"
+    USUARIOS ||--|| RESERVAS : "1:1"
+    RESERVAS ||--o| DESTINOS : "0:1"
+    DESTINOS ||--o| USUARIOS : "0:n"
 ```
 
 CRUD [Create, Read, Update, Delete](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/CRUD)
