@@ -159,4 +159,7 @@ A tabela deve cumprir requisitos da 2FN e nenhuna coluna não-chave deve depende
 Pode haver tabelas que não estejam em conformidade com a 3FN sem prejudicr a consistência dos dados
 
 **Resumo**
+
 A 1FN garante que os registros sejam únicos e identificáveis, a 2FN garante que atributos não-chave dependam totalmente da chave primária, evitando dependências parciais e, a 3FN elimina dependências transiticas entre atributos não-chave garantindo a dependência dos mesmos apenas da chave primária, não havendo dependência indireta entre eles.
+
+São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/wiki/Normaliza%C3%A7%C3%A3o_de_dados)
