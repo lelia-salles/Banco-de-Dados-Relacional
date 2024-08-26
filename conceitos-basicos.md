@@ -163,3 +163,16 @@ Pode haver tabelas que não estejam em conformidade com a 3FN sem prejudicr a co
 A 1FN garante que os registros sejam únicos e identificáveis, a 2FN garante que atributos não-chave dependam totalmente da chave primária, evitando dependências parciais e, a 3FN elimina dependências transiticas entre atributos não-chave garantindo a dependência dos mesmos apenas da chave primária, não havendo dependência indireta entre eles.
 
 São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/wiki/Normaliza%C3%A7%C3%A3o_de_dados)
+
+## Funcionalidades Avançadas
+
+### Consultas com junções e subconsultas
+
+* JOIN - combina dados de duas ou mais tabelas relacionadas em uma única consulta
+    *  inner join
+    *  left join ou left outer join
+    *  right join ou right outer join
+    *  full join ou full outer join (MariaDB não aceita)
+          
+*     
+* 
