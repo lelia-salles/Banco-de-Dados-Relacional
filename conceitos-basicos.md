@@ -104,3 +104,8 @@ Na hora de definir a coluna pode-se passar algumas informações adicionais como
 
 * Chaves primárias e estrangeiras
 * Auto Incremento
+
+## Normalizar
+
+Elimina redundâncias e anomalias, garantindo a consisteência e integridade de dados [Exemplo](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Normalizacao_de_dados)
+
