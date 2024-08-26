@@ -18,7 +18,7 @@ Um banco de dados não é auto gerenciável por isso existem sistemas de gerenci
 ## Funcionalidades Básicas
 
 ```CRUD```
-**C****reate
+**C**reate
 **R**ead
 **U**pdate
 **D**elete
