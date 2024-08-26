@@ -155,3 +155,8 @@ A 2FN se aplica praticamente à chave primária composta já que a simples não 
 
 * 3FN 
 A tabela deve cumprir requisitos da 2FN e nenhuna coluna não-chave deve depender de outra coluna não_chave. Ex.: Estado -> Cidade, atributos devem depender do Id apenas
+
+Pode haver tabelas que não estejam em conformidade com a 3FN sem prejudicr a consistência dos dados
+
+**Resumo**
+A 1FN garante que os registros sejam únicos e identificáveis, a 2FN garante que atributos não-chave dependam totalmente da chave primária, evitando dependências parciais e, a 3FN elimina dependências transiticas entre atributos não-chave garantindo a dependência dos mesmos apenas da chave primária, não havendo dependência indireta entre eles.
