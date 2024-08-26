@@ -195,6 +195,9 @@ São funções que realizam pré-processamento ou cálculo em colunas retronnand
 * Agrupamento de Resultados
 Usado para dividir os dados em grupos de acordo com um critério
     * Group by - critério de agrupamento
+ 
+* Índices
+Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras informações importantes para melhorar desempenho
 
 
  
