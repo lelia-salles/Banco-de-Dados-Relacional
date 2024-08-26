@@ -120,7 +120,7 @@ erDiagram
     }
 
     USUARIOS ||--|| RESERVAS : "1:1"
-    RESERVAS |--o| DESTINOS : "0:1"
+    RESERVAS ||--o| DESTINOS : "0:1"
     DESTINOS ||--o| USUARIOS : "0:n"
 ```
 
