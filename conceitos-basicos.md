@@ -93,7 +93,7 @@ classDiagram
 
 ## Comandos Básicos:
 
-CRUD [Create, Read, Update, Delete]()
+CRUD [Create, Read, Update, Delete](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/CRUD)
 
 Na hora de definir a coluna pode-se passar algumas informações adicionais como:
 
