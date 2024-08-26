@@ -29,11 +29,11 @@ Composto por um BD onde será armazenado conjunto de tabelas que podem relaciona
 
 ### Tabelas
 
-Tabelas são compostas por colunas onde são armazenadas atributos de uma determinada entidade. Cada atributo deve ser armazenado em uma coluna diferente
+Tabelas são compostas por colunas onde são armazenadas atributos de uma determinada entidade. Cada atributo deve ser armazenado em uma coluna diferente. São usadas para armazenar dados de forma organizada. Cada tabela possui um nome único e é dividida em colunas e linhas
 
-### Registro
+* **Coluna:** é uma estrutura de uma tabela que representa um atributo específico dos dados armazenados. Possui um nome único e um tipo de dado que define o tipo de informação armazenada. Ex, texto, número, data, etc.
 
-O registro ou linha ou tupla, são informações armazenadas em si, ou seja informações de uma entidade armazenadas em colunas são chamadas de registro.
+* **Registro, linha ou tupla:** é a informação armazenada em si, ou seja informações de uma entidade armazenadas em colunas são chamadas de registro.
 
 ### Relacionamentos
 
@@ -88,3 +88,9 @@ classDiagram
 2. Selecionar aolicativo > MariaDB > Criar Banco de Dados > Criar usuário
 3. Em aplicativos selecionart MyAdminPhP e inserir dados do usuário
 
+## Comandos Básicos:
+
+```
+CREATE TABLE {{nome}}
+    ({{coluna}} {{tipo}} {{opções}} COMMENT {{'COMEENTARIO'}});
+```
