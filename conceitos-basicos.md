@@ -191,6 +191,11 @@ São funções que realizam pré-processamento ou cálculo em colunas retronnand
     * avg - calcula a média dos valores de uma coluna numérica
     * min - retorna o valor mínimo de uma coluna
     * max - retorna o valor máximo de uma coluna
+      
+* Agrupamento de Resultados
+Usado para dividir os dados em grupos de acordo com um critério
+    * Group by - critério de agrupamento
+
 
  
 
