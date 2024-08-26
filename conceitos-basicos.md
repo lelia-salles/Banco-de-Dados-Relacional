@@ -200,7 +200,7 @@ Usado para dividir os dados em grupos de acordo com um critério
  
 * Índices
   
-Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras informações importantes para melhorar desempenho
+    Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras     informações importantes para melhorar desempenho
 
     * Explain - retorna dados da análise da execução da consulta
         * select_type: 'simple', 'subquery', 'join'
