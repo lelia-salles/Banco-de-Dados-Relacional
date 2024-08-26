@@ -166,6 +166,7 @@ A 1FN garante que os registros sejam únicos e identificáveis, a 2FN garante qu
 São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/wiki/Normaliza%C3%A7%C3%A3o_de_dados)
 
 ## Funcionalidades Avançadas
+[Exemplos](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Consultas_avancadas)
 
 ### Consultas com junções e subconsultas
 
@@ -175,8 +176,6 @@ São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/
     *  right join ou right outer join - retorna as linhas da tabela à direita da junção e as linhas corresoindentes da tabela à esquerda. Retorna NULL se não houver correspondência
     *  full join ou full outer join (MariaDB não aceita) - retorna todas as linhas de ambas as tabelas combinando-se com base em uma condição de igualdade. Retorna NULL se não houver correspondência
           
-[Exemplos](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Consultas_avancadas)
-
 * Subconsultas
 Permitem realizar consultas complexas permitindo que se use o resultado deo uma consulta como entrada para outra consulta e podem ser usadas em várias partes de uma consulta
     * Select
@@ -184,6 +183,15 @@ Permitem realizar consultas complexas permitindo que se use o resultado deo uma 
     * Where
     * Having
     * Join
+      
+* Funções Agregadas 
+São funções que realizam pré-processamento ou cálculo em colunas retronnando um único valor.
+    * count - conta um número de registri
+    * sum - soma valores de coluna numéroca
+    * avg - calcula a média dos valores de uma coluna numérica
+    * min - retorna o valor mínimo de uma coluna
+    * max - retorna o valor máximo de uma coluna
+
  
 
   
