@@ -93,6 +93,37 @@ classDiagram
 
 ## Comandos Básicos:
 
+**Diagrama UML para os exemplos na BD Viagens:
+
+# UML Diagram
+
+```mermaid
+erDiagram
+    USUARIOS {
+        int id
+        string nome
+        date dataNascimento
+        string endereco
+    }
+
+    DESTINOS {
+        int id
+        string nome
+        string descricao
+    }
+
+    RESERVAS {
+        int id
+        int idUsuario
+        int idDestino
+        string status
+    }
+
+    USUARIOS ||--|| RESERVAS : "Realiza"
+    RESERVAS ||--o| DESTINOS : "Realiza"
+    DESTINOS ||--o| USUARIOS : "Realiza"
+```
+
 CRUD [Create, Read, Update, Delete](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/CRUD)
 
 Na hora de definir a coluna pode-se passar algumas informações adicionais como:
