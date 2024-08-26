@@ -146,3 +146,9 @@ Elimina redundâncias e anomalias, garantindo a consisteência e integridade de 
 cada valor da tabela deve ser indivisível (atômico). Nenum campo deve conter múltiplos valores ou listas. Ex. Endereço tem múltiplos valores. Para atingir a 1FN deve-se dividir o campo endereço em colunas separadas.
 
 * 2FN 
+Estabelece que uma tabela de estar primeiramente de acordo com a 1FN e que todos os atributos não-chave tem que depender totalmente da chave primária. A **chave primária** pode ser:
+
+* simples: uma coluna
+* composta: duas ou mais colunas
+
+A 2FN se aplica praticamente à chave primária composta já que a simples não há possibilidade de haver dependência parcial.
