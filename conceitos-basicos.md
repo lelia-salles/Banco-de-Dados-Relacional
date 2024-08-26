@@ -148,7 +148,10 @@ cada valor da tabela deve ser indivisível (atômico). Nenum campo deve conter m
 * 2FN 
 Estabelece que uma tabela de estar primeiramente de acordo com a 1FN e que todos os atributos não-chave tem que depender totalmente da chave primária. A **chave primária** pode ser:
 
-* simples: uma coluna
-* composta: duas ou mais colunas
+    * simples: uma coluna
+    * composta: duas ou mais colunas
 
 A 2FN se aplica praticamente à chave primária composta já que a simples não há possibilidade de haver dependência parcial.
+
+* 3FN 
+A tabela deve cumprir requisitos da 2FN e nenhuna coluna não-chave deve depender de outra coluna não_chave. Ex.: Estado -> Cidade
