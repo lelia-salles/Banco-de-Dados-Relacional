@@ -178,5 +178,12 @@ São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/
 [Exemplos](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Consultas_avancadas)
 
 * Subconsultas
-Permitem realizar consultas complexas permitindo que se use o resultado deo uma consulta como entrada para outra consulta
+Permitem realizar consultas complexas permitindo que se use o resultado deo uma consulta como entrada para outra consulta e podem ser usadas em várias partes de uma consulta
+    * Select
+    * From
+    * Where
+    * Having
+    * Join
+ 
+
   
