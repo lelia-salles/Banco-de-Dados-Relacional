@@ -82,6 +82,8 @@ classDiagram
         - String endereco
         - int idade
            }
+
+
 ```
 ## Configuração do Ambiente Remoto
 1. Criar Conta em [](https://clients.cloudclusters.io/)
@@ -92,5 +94,15 @@ classDiagram
 
 ```
 CREATE TABLE {{nome}}
-    ({{coluna}} {{tipo}} {{opções}} COMMENT {{'COMEENTARIO'}});
+    ({{coluna}} {{tipo}} {{opções}} COMMENT {{'COMENTARIO'}});
 ```
+
+Na hora de definir a coluna pode-se passar algumas informações adicionais como:
+
+* Restrição de valor 
+    * NOT NULL (Obrigatório ou não)
+    * UNIQUE informação não pode ser duplicada
+    * DEFAULT um status padrão (ex. ligado, desligado)
+
+* Chaves primárias e estrangeiras
+* Auto Incremento
