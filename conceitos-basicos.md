@@ -109,3 +109,9 @@ Na hora de definir a coluna pode-se passar algumas informações adicionais como
 
 Elimina redundâncias e anomalias, garantindo a consisteência e integridade de dados [Exemplo](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Normalizacao_de_dados)
 
+### Formas Normais
+
+* 1FN Atomicidade de dados:
+cada valor da tabela deve ser indivisível (atômico). Nenum campo deve conter múltiplos valores ou listas. Ex. Endereço tem múltiplos valores. Para atingir a 1FN deve-se dividir o campo endereço em colunas separadas.
+
+* 2FN 
