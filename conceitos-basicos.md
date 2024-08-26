@@ -179,4 +179,4 @@ São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/
 
 * Subconsultas
 Permitem realizar consultas complexas permitindo que se use o resultado deo uma consulta como entrada para outra consulta
-* 
+  
