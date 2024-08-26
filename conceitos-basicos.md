@@ -200,7 +200,7 @@ Usado para dividir os dados em grupos de acordo com um critério
  
 * Índices
   
-    Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras     informações importantes para melhorar desempenho
+    Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras informações importantes para melhorar desempenho. Um caso de uso seria quando uma busca precisa de percorrer todas as linhas (full scan), o que é prejudicial, então usa-se o index.
 
     * Explain - retorna dados da análise da execução da consulta
         * select_type: 'simple', 'subquery', 'join'
