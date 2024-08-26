@@ -184,7 +184,8 @@ Permitem realizar consultas complexas permitindo que se use o resultado deo uma 
     * Having
     * Join
       
-* Funções Agregadas 
+* Funções Agregadas
+  
 São funções que realizam pré-processamento ou cálculo em colunas retronnando um único valor.
     * count - conta um número de registri
     * sum - soma valores de coluna numéroca
@@ -193,11 +194,23 @@ São funções que realizam pré-processamento ou cálculo em colunas retronnand
     * max - retorna o valor máximo de uma coluna
       
 * Agrupamento de Resultados
+  
 Usado para dividir os dados em grupos de acordo com um critério
     * Group by - critério de agrupamento
  
 * Índices
+  
 Permite examinar operações realizadas, tabelas acessadas, índicies usados e outras informações importantes para melhorar desempenho
+
+    * Explain - retorna dados da análise da execução da consulta
+        * select_type: 'simple', 'subquery', 'join'
+        * table
+        * tuype: all, index entre outros
+        * possible_keys: índicies possíveis que podem ser usados na operação
+        * key: [indice usado na operação se aplicável
+        * Key_len: comprimento do íncdice usado
+        * ref: colunas ou coastantes usadas para acessar o índice 
+        * rows
 
 
  
