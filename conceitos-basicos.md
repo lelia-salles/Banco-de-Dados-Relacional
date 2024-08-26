@@ -169,9 +169,9 @@ São 6 Formas Normais que podem ser encontradas [aqui](https://pt.wikipedia.org/
 ### Consultas com junções e subconsultas
 
 * JOIN - combina dados de duas ou mais tabelas relacionadas em uma única consulta
-    *  inner join
-    *  left join ou left outer join
-    *  right join ou right outer join
-    *  full join ou full outer join (MariaDB não aceita)
+    *  inner join - retorna linhas que tem correspondência em ambas as tabelas envolvidas
+    *  left join ou left outer join - retorna as linhas da tabela à esquerda da junção e as linhas corresoindentes da tabela à direita. Retorna NULL se não houver correspondência
+    *  right join ou right outer join - retorna as linhas da tabela à direita da junção e as linhas corresoindentes da tabela à esquerda. Retorna NULL se não houver correspondência
+    *  full join ou full outer join (MariaDB não aceita) - retorna todas as linhas de ambas as tabelas combinando-se com base em uma condição de igualdade. Retorna NULL se não houver correspondência
           
 [Exemplos](https://github.com/lelia-salles/Banco-de-Dados-Relacional/tree/main/Consultas_avancadas)
