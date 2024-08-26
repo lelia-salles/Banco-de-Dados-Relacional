@@ -154,4 +154,4 @@ Estabelece que uma tabela de estar primeiramente de acordo com a 1FN e que todos
 A 2FN se aplica praticamente à chave primária composta já que a simples não há possibilidade de haver dependência parcial.
 
 * 3FN 
-A tabela deve cumprir requisitos da 2FN e nenhuna coluna não-chave deve depender de outra coluna não_chave. Ex.: Estado -> Cidade
+A tabela deve cumprir requisitos da 2FN e nenhuna coluna não-chave deve depender de outra coluna não_chave. Ex.: Estado -> Cidade, atributos devem depender do Id apenas
