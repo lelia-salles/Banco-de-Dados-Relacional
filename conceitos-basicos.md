@@ -16,6 +16,36 @@ Coleção organizada de informações ou dados estruturados armazenados em um si
 
 Um banco de dados não é auto gerenciável por isso existem sistemas de gerenciamento de banco deo dados chamados de SGBD. Fornecem conjunto de ferramentas e recursos para criar, manipular, consultar e adminstrar dados e segurança.
 
+## Tipos de Linguagens e Comandos Usados para Gerenciar e Consultar Bancos de Dados
+
+* DDL - Data Definition Language (Linguagem de Definição de Dados) -  é um subconjunto da SQL usado para definir e gerenciar a estrutura dos objetos de um banco de dados, como tabelas, índices e esquemas. Os comandos DDL são responsáveis pela criação, alteração e exclusão desses objetos. Alguns dos principais comandos DDL são:
+    * CREATE: Cria novos objetos no banco de dados. Exemplo: CREATE TABLE, CREATE INDEX.
+    * ALTER: Modifica a estrutura de objetos existentes. Exemplo: ALTER TABLE para adicionar ou remover colunas.
+    * DROP: Remove objetos do banco de dados. Exemplo: DROP TABLE, DROP INDEX.
+    * TRUNCATE: Remove todos os registros de uma tabela, mas mantém a estrutura da tabela. Exemplo: TRUNCATE TABLE.
+* DQL - Data Query Language (Linguagem de Consulta de Dados) -DQL é um subconjunto da SQL usado para consultar e recuperar dados de um banco de dados
+      * SELECT: Recupera dados de uma ou mais tabelas. Exemplo: SELECT * FROM tabela WHERE condição;
+  
+* DML - Data Manipulation Language (Linguagem de Manipulação de Dados) - manipula dados dentro das tabelas de um banco de dados. Os principais comandos DML são:
+
+    * INSERT: Adiciona novos registros a uma tabela. Exemplo: INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);.
+    * UPDATE: Modifica registros existentes em uma tabela. Exemplo: UPDATE tabela SET coluna1 = valor1 WHERE condição;.
+    * DELETE: Remove registros de uma tabela. Exemplo: DELETE FROM tabela WHERE condição;
+ 
+* DCL - Data Control Language (Linguagem de Controle de Dados) -DCL é usada para controlar o acesso aos dados e gerenciar permissões e autorizações. 
+
+    * GRANT: Concede permissões a usuários ou roles. Exemplo: GRANT SELECT ON tabela TO usuário;
+    * REVOKE: Revoga permissões concedidas anteriormente. Exemplo: REVOKE SELECT ON tabela FROM usuário;
+      
+* TCL - Transaction Control Language (Linguagem de Controle de Transações) - gerencia transações em um banco de dados, garantindo que as operações sejam realizadas de forma segura e consistente. 
+
+    * COMMIT: Confirma todas as operações realizadas na transação atual. Exemplo: COMMIT;
+    * ROLLBACK: Desfaz todas as operações realizadas na transação atual. Exemplo: ROLLBACK;
+    * SAVEPOINT: Cria um ponto de salvamento dentro de uma transação, permitindo um rollback até esse ponto. Exemplo: SAVEPOINT ponto;
+    * SET TRANSACTION: Define as propriedades da transação. Exemplo: SET TRANSACTION ISOLATION LEVEL nível;
+
+
+
 ## Funcionalidades Básicas
 
 ```CRUD```
