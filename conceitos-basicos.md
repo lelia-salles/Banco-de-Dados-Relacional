@@ -242,6 +242,40 @@ Usado para dividir os dados em grupos de acordo com um critério
         * ref: colunas ou coastantes usadas para acessar o índice 
         * rows
 
+## ORM ou Object-Relational Mapping (Mapeamento Objeto-Relacional), 
+É uma técnica usada para interagir com bancos de dados relacionais a partir de linguagens de programação orientadas a objetos. A ideia principal do ORM é mapear os dados armazenados em um banco de dados relacional para objetos da linguagem de programação, facilitando a manipulação desses dados sem precisar escrever SQL diretamente.
+
+### Como o ORM Funciona
+* Mapeamento: O ORM faz o mapeamento entre as tabelas do banco de dados e as classes da linguagem de programação. Por exemplo, uma tabela Cliente no banco de dados pode ser mapeada para uma classe Cliente na aplicação.
+
+* Conversão de Dados: Ele converte dados entre o formato relacional (tabelas, colunas) e o formato orientado a objetos (objetos, atributos). Isso permite que você trabalhe com dados usando objetos em vez de lidar diretamente com as complexidades das consultas SQL.
+
+* Abstração de SQL: Através do ORM, você pode realizar operações como inserir, atualizar, excluir e consultar dados usando métodos e propriedades das classes, sem precisar escrever consultas SQL diretamente.
+
+### Vantagens do ORM
+
+* Produtividade: Reduz a quantidade de código SQL que você precisa escrever e manter.
+* Abstração: Oculta detalhes complexos do SQL, permitindo que os desenvolvedores trabalhem com abstrações de alto nível.
+* Manutenção: Facilita a manutenção e refatoração do código, já que as mudanças no modelo de dados geralmente exigem menos alterações no código da aplicação.
+  
+### Desvantagens do ORM
+
+* Desempenho: Em alguns casos, o uso de ORM pode resultar em menos desempenho em comparação com SQL otimizado manualmente, especialmente para consultas complexas.
+* Complexidade: Pode adicionar complexidade adicional ao código, especialmente em projetos grandes onde o mapeamento não é trivial.
+* Abstração Limitada: Pode não suportar todas as funcionalidades específicas do banco de dados ou SQL avançado.
+  
+### Exemplos de Ferramentas ORM
+
+**Hibernate:** Popular em Java.
+**Entity Framework:** Usado em .NET.
+**SQLAlchemy:** Usado em Python.
+**Django ORM:** Integrado no framework Django para Python.
+**Eloquent:** Utilizado com o framework Laravel em PHP.
+**Sequelize:** Para Node.js
+**Prisma:** Para Node.js e Typescript
+
+Em resumo, ORM facilita a interação com bancos de dados relacionais usando um paradigma orientado a objetos, ajudando a melhorar a produtividade e a legibilidade do código, mas pode ter impactos no desempenho e na complexidade dependendo do contexto.
+
 
  
 
